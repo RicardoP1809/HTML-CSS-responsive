@@ -1,0 +1,413 @@
+body {
+  font: 15px/1.5 arial,helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #blue;
+}
+
+/* Global */
+
+.container {
+  width: 85%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul {
+ margin: 0;
+ padding: 0;
+ text-decoration: none;
+}
+
+.button_1 {
+  height: 40px;
+  background: blue;
+  border: none;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #fff;
+}
+
+.dark {
+  padding: 15px;
+  background-color: orange;
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* header*/
+header {
+  text-align: center;
+  background: #red;
+  color: #fff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom-radius: 10px solid red
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+header li {
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header .branding {
+}
+
+header .branding  h1 {
+  margin: 0;
+}
+
+header nav {
+  margin-top: 12px;
+}
+
+header .highlight, header .current a {
+  color: #0000ff;
+  font-weight: bold;
+}
+
+header a:hover {
+  color: #0000ff;
+  font-weight: bold;
+}
+
+nav ul li a{
+  color: red;
+}
+/* showcase */
+
+.showcase {
+  min-height: 400px;
+  background: url(../img/banner.png) no-repeat 0 -400px;
+  text-align: center;
+  color: #fff;
+}
+
+.showcase h1 {
+  margin-top: 100px;
+  font-size: 60px;
+  margin-bottom: 15px;
+}
+
+.showcase p {
+  font-size: 25px;
+  color: blue;
+}
+.showcase h1 {
+  color: blue;
+}
+
+/*newsletter*/
+
+.newsletter {
+  margin-top: 1rem;
+  padding: 15px;
+  color: #fff;
+  background: red;
+  text-align: center;
+}
+
+.newsletter form {
+text-align: center;
+margin-top: 20px;
+}
+
+.newsletter input[type="Email"] {
+padding: 6px;
+height: 30px;
+width: 90%;
+}
+.newsletter button {
+padding: 6px;
+margin-top: 4px;
+height: 30px;
+width: 90%;
+}
+
+/*boxes*/
+
+ .box1 {
+   width: 90%;
+   padding: 10px;
+   text-align: center;
+   background-color: orange;
+   margin: 10px;
+   display: block;
+   color: #fff;
+   border-radius: 15px;
+   border-bottom: 5px solid blue;
+ }
+
+ .box2 {
+   width: 90%;
+   padding: 10px;
+   text-align: center;
+   background-color: orange;
+   margin: 10px;
+   display: block;
+   color: #fff;
+   border-radius: 15px;
+   border-bottom: 5px solid blue;
+ }
+
+ .box3 {
+   width: 90%;
+   padding: 10px;
+   text-align: center;
+   background-color: orange;
+   margin: 10px;
+   display: block;
+   color: #fff;
+   border-radius: 15px;
+   border-bottom: 5px solid blue;
+ }
+
+ .box1 a i {
+   font-size: 50px;
+   color: white;
+ }
+
+ .box2 a i {
+   font-size: 50px;
+   color: white;
+ }
+
+ .box3 a i {
+   font-size: 50px;
+   color: white;
+ }
+
+/*sidebar*/
+
+.sidebar  {
+  width: 100%;
+}
+
+.quote input, .quote textarea {
+  width: 90%;
+  padding: 5px;
+}
+
+/*article*/
+article .main-colom {
+  float: left;
+  width: 90%;
+  margin-left: 10px;
+}
+
+/*services*/
+.service {
+  list-style: none;
+  padding: 10px;
+  border: #ccc solid 2px;
+  margin-bottom: 10px;
+  background-color: lightblue;
+}
+
+/*footer*/
+footer {
+  clear: both;
+  padding: 25px;
+  margin-top: 20px;
+  color: #fff;
+  background-color: red;
+  text-align: center;
+}
+
+
+/*media Quearies */
+@media screen and (min-width: 700px) {
+  body {
+    font: 15px/1.5 arial,helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+
+  /* Global */
+  .container {
+    width: 85%;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .main {
+    width: 56%;
+    float: left;
+    margin-left: 10px;
+  }
+
+  ul {
+   margin: 0;
+   padding: 0;
+   text-decoration: none;
+  }
+
+  .button_1 {
+    height: 40px;
+    border: none;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .dark {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  /*newsletter*/
+
+  .newsletter h1 {
+    float: left;
+  }
+
+  .newsletter form {
+  text-align: center;
+  margin-top: 20px;
+  }
+
+  .newsletter input[type="Email"] {
+  padding: 6px;
+  height: 30px;
+  width: 70%;
+  }
+  .newsletter button {
+  padding: 6px;
+  margin-top: 4px;
+  height: 30px;
+  width: 20%;
+  }
+  /* header*/
+
+  header li {
+    float: left;
+    display: inne;
+    list-style: none;
+    padding: 0 20px 0 20px;
+  }
+
+  header .branding {
+    float: left;
+  }
+
+
+  header nav {
+    float: right;
+    margin-top: 12px;
+  }
+  /*newsletter*/
+
+  .newsletter {
+    margin-top: 1rem;
+    padding: 15px;
+    color: #fff;
+  }
+
+  .newsletter form {
+  margin-top: 20px;
+  float: right;
+  }
+
+  .newsletter input[type="Email"] {
+  padding: 6px;
+  height: 30px;
+  width: 450px;
+  }
+  .newsletter button {
+  padding: 6px;
+  margin-top: 4px;
+  height: 45px;
+  width: 100px;
+  }
+
+  /*boxes*/
+
+   .box1 {
+     width: 27%;
+     float: left;
+     display: inline-block;
+     height: 200px;
+   }
+
+   .box2 {
+     width: 27%;
+     color: #fff;
+     float: left;
+     display: inline-block;
+     height: 200px;
+   }
+
+   .box3 {
+     width: 27%;
+     color: #fff
+     float: left;
+     display: inline-block;
+     height: 200px;
+   }
+
+  /*sidebar*/
+
+  .sidebar  {
+    float: right;
+    width: 42%;
+  }
+
+  .quote input, .quote textarea {
+    width: 90%;
+  }
+
+  /*article*/
+  article .main-colom {
+    float: left;
+    width: 55%;
+  }
+
+  /*services*/
+  .service {
+    width: 95%;
+  }
+
+}
+
+@media screen and (min-width: 1080px) {
+
+    .main {
+      width: 56%;
+      float: right;
+      margin-left: 10px;
+    }
+    /*boxes*/
+
+     .box1 {
+       width: 30%;
+       float: left;
+       display: inline-block;
+       height: 200px;
+       margin: 1rem;
+     }
+
+     .box2 {
+       width: 30%;
+       color: #fff;
+       float: left;
+       display: inline-block;
+       height: 200px;
+       margin: 1rem;
+     }
+
+     .box3 {
+       width: 30%;
+       color: #fff
+       float: left;
+       display: inline-block;
+       height: 200px;
+       margin: 1rem;
+     }
+}
